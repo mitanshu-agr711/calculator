@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .container
+{
+    background-color: rgb(239, 73, 73);
+} */
+.row{
+    display: flex;
+    justify-content: center;
+    /* margin: 1%; */
+    
+}
+.row1{ 
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 1%;
+    margin: 4px;
+    border: 2px solid black;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.row1 button{
+    padding: 8.4px;
+}
+input[type=text]
+{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.8%;
+    border: 2px solid black;
+}
+@media(max-width:1024px)
+{
+    .row button{
+     width:50px;
+    height:50px  ;  }
+}
